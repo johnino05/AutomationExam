@@ -1,0 +1,21 @@
+1709208116797	geckodriver	INFO	Listening on 127.0.0.1:58979
+1709208119883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58980" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofilecx6dTA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709208120163	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709208120224	Marionette	INFO	Listening on port 58987
+WebDriver BiDi listening on ws://127.0.0.1:58980
+Read port: 58987
+1709208120383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58980/devtools/browser/ecd86b05-dafb-43ee-bf43-e34b6ebb9f80
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709208137995	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: FormAutofillHandler: isRecordCreatable: Country not supported: AF
+1709208149824	Marionette	INFO	Stopped listening on port 58987
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1709208150385	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147746065, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))

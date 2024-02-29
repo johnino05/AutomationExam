@@ -1,0 +1,28 @@
+1709207971412	geckodriver	INFO	Listening on 127.0.0.1:58702
+1709207974499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58703" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofileSr6IgI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709207974783	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709207974844	Marionette	INFO	Listening on port 58710
+WebDriver BiDi listening on ws://127.0.0.1:58703
+Read port: 58710
+1709207974999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58703/devtools/browser/19e051e4-c512-4b35-a12e-307c73620b5c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709207992716	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: FormAutofillHandler: isRecordCreatable: Country not supported: AF
+1709208003941	Marionette	INFO	Stopped listening on port 58710
+JavaScript warning: https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js, line 2: Script terminated by timeout at:
+add@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:41089
+Ee/<@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:40109
+each@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:3003
+each@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:1481
+Ee@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:40085
+on@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:46578
+@https://qrqck8u5t9co.front.staging.optimy.net/en/project/end/?project=9255c8c9-3dc4-53f8-b656-541af2a69290:533:33
+e@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:30038
+Deferred/then/l/</t<@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:30340
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,19 @@
+1709199532777	geckodriver	INFO	Listening on 127.0.0.1:51966
+1709199535866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofile7z0nYX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709199536152	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709199536218	Marionette	INFO	Listening on port 51974
+WebDriver BiDi listening on ws://127.0.0.1:51967
+Read port: 51974
+1709199536373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51967/devtools/browser/ea67d874-6d7c-48c1-ad85-63173cbbec60
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709199554509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709199566724	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1709199666267	Marionette	INFO	Stopped listening on port 51974
+Dynamically enable window occlusion 1

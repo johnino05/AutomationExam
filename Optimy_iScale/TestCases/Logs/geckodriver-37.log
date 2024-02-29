@@ -1,0 +1,30 @@
+1709207734143	geckodriver	INFO	Listening on 127.0.0.1:58248
+1709207737198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofilePHXZx1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709207737476	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709207737536	Marionette	INFO	Listening on port 58256
+WebDriver BiDi listening on ws://127.0.0.1:58249
+Read port: 58256
+1709207737705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58249/devtools/browser/5f77bcd6-7e3c-4da4-8e87-b96b46563d7f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709207765752	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709207767659	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: FormAutofillHandler: isRecordCreatable: Country not supported: AF
+1709207776603	Marionette	INFO	Stopped listening on port 58256
+JavaScript warning: https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js, line 6: Script terminated by timeout at:
+typeCheckConfig@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js:6:2089
+e._getConfig@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js:6:48938
+t@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js:6:40944
+t._jQueryInterface/J<@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js:6:49900
+each@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:3003
+each@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:1481
+t._jQueryInterface@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/bootstrap-4.6.0-dist/bootstrap.min.js:6:49774
+@https://qrqck8u5t9co.front.staging.optimy.net/en/project/end/?project=7d97ba5a-7033-521d-9381-75c14c0bc96a:468:18
+e@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:30038
+Deferred/then/l/</t<@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:30340
+
+Dynamically enable window occlusion 1

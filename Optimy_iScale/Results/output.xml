@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 6.0.2 (Python 3.11.3 on win32)" generated="20230606 11:20:23.381" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC 001 GetRequest" source="C:\Users\GuessUser\PycharmProjects\RobotFramework\TestCases\TC_001_GetRequest.robot">
+<test id="s1-s1-t1" name=" TC_001_GetRequest" line="11">
+<kw name="Create Session" library="RequestsLibrary">
+<arg>Get_Student_Details</arg>
+<arg>${baseurl}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20230606 11:20:20.563" level="INFO">Creating Session using : alias=Get_Student_Details, url=https://thetestingworldapi.com/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:20.563"/>
+</kw>
+<kw name="GET On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>Get_Student_Details</arg>
+<arg>api/studentsDetails</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<msg timestamp="20230606 11:20:21.737" level="INFO">GET Request : url=https://thetestingworldapi.com/api/studentsDetails 
+ path_url=/api/studentsDetails 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20230606 11:20:21.737" level="INFO">GET Response : url=https://thetestingworldapi.com/api/studentsDetails 
+ status=200, reason=OK 
+ headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Content-Type': 'application/json; charset=utf-8', 'Expires': '-1', 'Server': 'Microsoft-IIS/10.0', 'X-AspNet-Version': '4.0.30319', 'X-Powered-By': 'ASP.NET', 'X-Powered-By-Plesk': 'PleskWin', 'Date': 'Tue, 06 Jun 2023 03:20:20 GMT', 'Content-Length': '10368'} 
+ body=[{"id":7567244,"first_name":"Arjun","middle_name":"Kumud A","last_name":"Awasthi","date_of_birth":"12/13/2017"},{"id":7567243,"first_name":"Arjun","middle_name":"Kumud A","last_name":"Awasthi","date_of_birth":"12/13/2017"},{"id":7567242,"first_name":"Arjun","middle_name":"Kumud A","last_name":"Awasthi","date_of_birth":"12/13/2017"},{"id":7567241,"first_name":"Arjun","middle_name":"Kumud A","last_name":"Awasthi","date_of_birth":"12/13/2017"},{"id":7567240,"first_name":"prenom","middle_name":"nom","last_name":"nom","date_of_birth":"09/09/2000"},{"id":7567239,"first_name":"prenom","middle_name":"nom","last_name":"nom","date_of_birth":"09/09/2000"},{"id":7567238,"first_name":"prenom","middle_name":"nom","last_name":"nom","date_of_birth":"09/09/2000"},{"id":7567237,"first_name":"prenom","middle_name":"nom","last_name":"nom","date_of_birth":"09/09/2000"},{"id":7567236,"first_name":"Arjun","middle_name":"Kumud","last_name":"Awasthi","date_of_birth":"12/13/2016"},{"id":7567235,"first_name":"prenom","middle_name":"nom","last_name":"nom","date_of_birth":"09/09/2000"},{"id":7567234,"first_name":"Arjun","middle_name":"Kumud","last_name":"Awasthi","date_of_birth":"12/13/2016"},{"id":7567232,"first_name":"Arjun","middle_name":"Kumud","last_name":"Awasthi","date_of_birth":"12/13/2016"},{"id":7567231,"first_name":"TestData1","middle_name":"M","last_name":"Global","date_of_birth":"@gmail.com"},{"id":7567230,"first_name":"TestData1","middle_name":"M","last_name":"Global","date_of_birth":"@gmail.com"},{"id":7567229,"first_name":"TestData1","middle_name":"M","last_name":"Global","date_of_birth":"@gmail.com"},{"id":7567228,"first_name":"TestData1","middle_name":"M","last_name":"Global","date_of_birth":"@gmail.com"},{"id":7567227,"first_name":"Testing","middle_name":"World","last_name":"Global","date_of_birth":"@gmail.com"},{"id":7567226,"first_name":"Hello","middle_name":"MyData","last_name":"World","date_of_birth":"12/12/1999"},{"id":7567225,"first_name":null,"middle_name":null,"last_name":null,"date_of_birth":null},{"id":7567224,"first_name":null,"middle_name":null,"last_name":null,"date_of_birth":null},{"id":7567223,"first_name":"Testing","middle_name":"M","last_name":"World","date_of_birth":"12/12/1990"},{"id":7567222,"first_name":"Testing","middle_name":"M","last_name":"World","date_of_birth":"12/12/1990"},{"id":7567221,"first_name":"Testing","middle_name":"M","last_name":"World","date_of_birth":"12/12/1990"},{"id":7567220,"first_name":"qS","middle_name":"BMGVd","last_name":"mLXO","date_of_birth":"1987-06-06"},{"id":7567219,"first_name":"Gt","middle_name":"tsNMY","last_name":"iQnM","date_of_birth":"2000-01-27"},{"id":7567218,"first_name":"ks","middle_name":"OStkM","last_name":"vWNM","date_of_birth":"1972-07-26"},{"id":7567217,"first_name":"MM","middle_name":"mYsfP","last_name":"eqMF","date_of_birth":"1994-12-31"},{"id":7567216,"first_name":"lR","middle_name":"gdYxO","last_name":"duMd","date_of_birth":"1999-11-26"},{"id":7567215,"first_name":"ro","middle_name":"SUeMm","last_name":"Ushn","date_of_birth":"1988-08-19"},{"id":7567214,"first_name":"qI","middle_name":"YmwrB","last_name":"idIU","date_of_birth":"1998-11-12"},{"id":7567213,"first_name":"Wc","middle_name":"cmagF","last_name":"Wrcz","date_of_birth":"1988-05-21"},{"id":7567212,"first_name":"XL","middle_name":"frSpN","last_name":"hWQs","date_of_birth":"1997-07-25"},{"id":7567211,"first_name":"Ea","middle_name":"vraQX","last_name":"xhYe","date_of_birth":"1982-01-26"},{"id":7567210,"first_name":"tz","middle_name":"WaOAw","last_name":"QGJG","date_of_birth":"1997-01-05"},{"id":7567209,"first_name":"OS","middle_name":"CkbtR","last_name":"iAUl","date_of_birth":"1983-10-17"},{"id":7567208,"first_name":"Ys","middle_name":"iYDfT","last_name":"ATQb","date_of_birth":"1985-01-20"},{"id":7567207,"first_name":"rB","middle_name":"PTGMg","last_name":"vMIF","date_of_birth":"1988-09-19"},{"id":7567206,"first_name":"Tu","middle_name":"AYYXt","last_name":"gVNr","date_of_birth":"1972-09-18"},{"id":7567205,"first_name":"OZ","middle_name":"vABaX","last_name":"URtt","date_of_birth":"1987-11-28"},{"id":7567204,"first_name":"zc","middle_name":"BmzmI","last_name":"jHbM","date_of_birth":"1981-10-10"},{"id":7567203,"first_name":"UI","middle_name":"MsJqT","last_name":"thgR","date_of_birth":"1989-04-18"},{"id":7567202,"first_name":"Vr","middle_name":"FDZkF","last_name":"FUuf","date_of_birth":"1971-05-07"},{"id":7567201,"first_name":"yT","middle_name":"jyGTB","last_name":"Bhsr","date_of_birth":"1982-11-13"},{"id":7567200,"first_name":"BS","middle_name":"tLNBM","last_name":"EyZf","date_of_birth":"1985-03-07"},{"id":7567199,"first_name":"em","middle_name":"rkgid","last_name":"TLYL","date_of_birth":"1970-05-28"},{"id":7567198,"first_name":"YX","middle_name":"hgrEp","last_name":"szkJ","date_of_birth":"1997-05-21"},{"id":7567197,"first_name":"Ii","middle_name":"DrNXl","last_name":"zKLX","date_of_birth":"1988-09-05"},{"id":7567196,"first_name":"Jr","middle_name":"YMoxx","last_name":"AnhJ","date_of_birth":"1994-05-08"},{"id":7567195,"first_name":"EA","middle_name":"PljMi","last_name":"yMYT","date_of_birth":"1986-08-14"},{"id":7567194,"first_name":"Mc","middle_name":"VFstx","last_name":"iZvN","date_of_birth":"1989-07-23"},{"id":7567193,"first_name":"AA","middle_name":"abZhj","last_name":"rADm","date_of_birth":"1996-08-14"},{"id":7567192,"first_name":"Fg","middle_name":"YlzMi","last_name":"JuvB","date_of_birth":"1995-09-07"},{"id":7567191,"first_name":"hL","middle_name":"CVDEQ","last_name":"gCcD","date_of_birth":"1972-04-19"},{"id":7567190,"first_name":"BM","middle_name":"BTdAM","last_name":"YdcR","date_of_birth":"1976-02-16"},{"id":7567189,"first_name":"Ar","middle_name":"YyXPM","last_name":"rGvo","date_of_birth":"1973-07-17"},{"id":7567188,"first_name":"jk","middle_name":"ghAPX","last_name":"iJJB","date_of_birth":"1980-07-12"},{"id":7567187,"first_name":"bt","middle_name":"nTeAY","last_name":"zodG","date_of_birth":"1994-07-19"},{"id":7567186,"first_name":"KM","middle_name":"lNqpB","last_name":"VDbT","date_of_birth":"1986-05-22"},{"id":7567185,"first_name":"be","middle_name":"Mrzpm","last_name":"rFId","date_of_birth":"1991-09-19"},{"id":7567184,"first_name":"MC","middle_name":"QEcRf","last_name":"NpBw","date_of_birth":"1989-07-19"},{"id":7567183,"first_name":"As","middle_name":"uOdhA","last_name":"IydB","date_of_birth":"1979-10-31"},{"id":7567182,"first_name":"zV","middle_name":"eYrMA","last_name":"JIhN","date_of_birth":"1980-09-30"},{"id":7567181,"first_name":"Ud","middle_name":"YcOAG","last_name":"POyB","date_of_birth":"1981-03-15"},{"id":7567180,"first_name":"gN","middle_name":"MYzND","last_name":"GApS","date_of_birth":"1999-12-27"},{"id":7567179,"first_name":"rZ","middle_name":"EXEXA","last_name":"rMMg","date_of_birth":"1986-04-02"},{"id":7567178,"first_name":"nW","middle_name":"NEGTB","last_name":"TSAg","date_of_birth":"1983-12-24"},{"id":7567177,"first_name":"BC","middle_name":"eSAPF","last_name":"MJsD","date_of_birth":"1973-08-28"},{"id":7567176,"first_name":"rK","middle_name":"oWSXL","last_name":"oYwM","date_of_birth":"1995-04-10"},{"id":7567175,"first_name":"Rs","middle_name":"TmlTO","last_name":"NbAi","date_of_birth":"1977-11-02"},{"id":7567174,"first_name":"Sf","middle_name":"zBMFv","last_name":"uZsE","date_of_birth":"1973-06-20"},{"id":7567173,"first_name":"Au","middle_name":"asZFl","last_name":"SyHM","date_of_birth":"1999-10-26"},{"id":7567172,"first_name":"xi","middle_name":"sseNF","last_name":"OhMX","date_of_birth":"1976-07-04"},{"id":7567171,"first_name":"Er","middle_name":"hFCMg","last_name":"mOFR","date_of_birth":"1979-08-08"},{"id":7567170,"first_name":"BC","middle_name":"CNEPX","last_name":"xVwO","date_of_birth":"1998-07-01"},{"id":7567169,"first_name":"GF","middle_name":"QMaKg","last_name":"VyBM","date_of_birth":"1987-11-15"},{"id":7567168,"first_name":"Hc","middle_name":"zMVkM","last_name":"PxBT","date_of_birth":"1991-12-10"},{"id":7567167,"first_name":"Mu","middle_name":"yLKZM","last_name":"lsFM","date_of_birth":"1992-03-12"},{"id":7567166,"first_name":"JG","middle_name":"fUBdd","last_name":"UMMA","date_of_birth":"1971-04-06"},{"id":7567165,"first_name":"lB","middle_name":"rqrCF","last_name":"zzyo","date_of_birth":"1981-01-14"},{"id":7567164,"first_name":"AW","middle_name":"iDLRk","last_name":"wYxR","date_of_birth":"1975-01-27"},{"id":7567163,"first_name":"TT","middle_name":"BUfbM","last_name":"QTrM","date_of_birth":"1992-12-06"},{"id":7567162,"first_name":"mv","middle_name":"MxTyv","last_name":"rcdZ","date_of_birth":"1974-08-26"},{"id":7567161,"first_name":"gs","middle_name":"tOmVK","last_name":"QHZU","date_of_birth":"1983-04-08"},{"id":7567160,"first_name":"QA","middle_name":"PGMTR","last_name":"rkBP","date_of_birth":"1989-03-29"},{"id":7567159,"first_name":"TM","middle_name":"ssDHp","last_name":"vBAv","date_of_birth":"1978-08-03"},{"id":7567158,"first_name":"BP","middle_name":"BgvfO","last_name":"flrJ","date_of_birth":"1978-08-25"},{"id":7567157,"first_name":"FK","middle_name":"TXZBo","last_name":"uEpv","date_of_birth":"1994-03-12"},{"id":7567156,"first_name":"TZ","middle_name":"VVPWr","last_name":"uaiq","date_of_birth":"1985-05-26"},{"id":7567155,"first_name":"Bi","middle_name":"Hrtin","last_name":"BTFz","date_of_birth":"1978-02-19"},{"id":7567154,"first_name":"cj","middle_name":"ssWUL","last_name":"Qbba","date_of_birth":"2000-02-20"},{"id":7567153,"first_name":"Br","middle_name":"SlHfh","last_name":"Zrlf","date_of_birth":"1995-05-30"},{"id":7567152,"first_name":"sf","middle_name":"MJfKM","last_name":"FOFd","date_of_birth":"1977-06-09"},{"id":7567151,"first_name":"Ju","middle_name":"YLBTk","last_name":"FHAQ","date_of_birth":"1978-02-18"},{"id":7567150,"first_name":"Si","middle_name":"AJpyq","last_name":"QsHj","date_of_birth":"1989-08-26"},{"id":7567149,"first_name":"vF","middle_name":"ekAex","last_name":"LbzR","date_of_birth":"1989-11-21"},{"id":7567148,"first_name":"ng","middle_name":"xGYaw","last_name":"nxTU","date_of_birth":"1979-07-13"},{"id":7567147,"first_name":"sP","middle_name... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<msg timestamp="20230606 11:20:21.737" level="INFO">C:\Python\Lib\site-packages\urllib3\connectionpool.py:1095: InsecureRequestWarning: Unverified HTTPS request is being made to host 'thetestingworldapi.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg timestamp="20230606 11:20:21.737" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:21.737"/>
+</kw>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:21.737"/>
+</test>
+<status status="PASS" starttime="20230606 11:20:20.460" endtime="20230606 11:20:21.737"/>
+</suite>
+<suite id="s1-s2" name="TC 002 GetRequest" source="C:\Users\GuessUser\PycharmProjects\RobotFramework\TestCases\TC_002_GetRequest.robot">
+<test id="s1-s2-t1" name="TC_001_Fetch_StudentDetails_ByID" line="14">
+<kw name="Create Session" library="RequestsLibrary">
+<arg>mysession</arg>
+<arg>${baseurl}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20230606 11:20:20.563" level="INFO">Creating Session using : alias=mysession, url=https://thetestingworldapi.com/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:20.563"/>
+</kw>
+<kw name="GET On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>mysession</arg>
+<arg>${relativeurl_endpoint}${student_ID}</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<msg timestamp="20230606 11:20:21.705" level="INFO">GET Request : url=https://thetestingworldapi.com/api/studentsDetails/20 
+ path_url=/api/studentsDetails/20 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20230606 11:20:21.705" level="INFO">GET Response : url=https://thetestingworldapi.com/api/studentsDetails/20 
+ status=200, reason=OK 
+ headers={'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Content-Type': 'application/json; charset=utf-8', 'Expires': '-1', 'Server': 'Microsoft-IIS/10.0', 'X-AspNet-Version': '4.0.30319', 'X-Powered-By': 'ASP.NET', 'X-Powered-By-Plesk': 'PleskWin', 'Date': 'Tue, 06 Jun 2023 03:20:20 GMT', 'Content-Length': '40'} 
+ body={"status":"false","msg":"No data Found"} 
+ </msg>
+<msg timestamp="20230606 11:20:21.705" level="INFO">C:\Python\Lib\site-packages\urllib3\connectionpool.py:1095: InsecureRequestWarning: Unverified HTTPS request is being made to host 'thetestingworldapi.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg timestamp="20230606 11:20:21.705" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:21.705"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${response.status_code}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230606 11:20:21.705" endtime="20230606 11:20:21.705"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${response.content}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230606 11:20:21.705" endtime="20230606 11:20:21.705"/>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<var>${string_status_code}</var>
+<arg>${response.status_code}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<msg timestamp="20230606 11:20:21.705" level="INFO">${string_status_code} = 200</msg>
+<status status="PASS" starttime="20230606 11:20:21.705" endtime="20230606 11:20:21.705"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${string_status_code}</arg>
+<arg>200</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20230606 11:20:21.705" endtime="20230606 11:20:21.705"/>
+</kw>
+<status status="PASS" starttime="20230606 11:20:20.563" endtime="20230606 11:20:21.705"/>
+</test>
+<status status="PASS" starttime="20230606 11:20:20.460" endtime="20230606 11:20:21.705"/>
+</suite>
+<suite id="s1-s3" name="TC 003 PostRequest" source="C:\Users\GuessUser\PycharmProjects\RobotFramework\TestCases\TC_003_PostRequest.robot">
+<test id="s1-s3-t1" name="TC_001_Create_User" line="13">
+<kw name="Create Session" library="RequestsLibrary">
+<arg>mysession</arg>
+<arg>${baseurl}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20230606 11:20:22.233" level="INFO">Creating Session using : alias=mysession, url=https://reqres.in/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20230606 11:20:22.233" endtime="20230606 11:20:22.233"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${body}</var>
+<arg>name=igop job=model</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20230606 11:20:22.233" level="INFO">${body} = {'name': 'igop job=model'}</msg>
+<status status="PASS" starttime="20230606 11:20:22.233" endtime="20230606 11:20:22.233"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${header}</var>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20230606 11:20:22.233" level="INFO">${header} = {'Content-Type': 'application/json'}</msg>
+<status status="PASS" starttime="20230606 11:20:22.233" endtime="20230606 11:20:22.233"/>
+</kw>
+<kw name="POST On Session" library="RequestsLibrary">
+<var>${response}</var>
+<arg>mysession</arg>
+<arg>${relativeurl_endpoint}</arg>
+<arg>data=${body}</arg>
+<arg>headers=${header}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<msg timestamp="20230606 11:20:23.046" level="INFO">POST Request : url=https://reqres.in/api/users 
+ path_url=/api/users 
+ headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '21'} 
+ body=name=igop+job%3Dmodel 
+ </msg>
+<msg timestamp="20230606 11:20:23.046" level="INFO">POST Response : url=https://reqres.in/api/users 
+ status=400, reason=Bad Request 
+ headers={'Date': 'Tue, 06 Jun 2023 03:20:23 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Content-Security-Policy': "default-src 'none'", 'X-Content-Type-Options': 'nosniff', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=8jXongyWp8ZUMEY5TAMjwK6IdhBzvkJGl%2BXYyyyeFcfErC3z4E1nVb0hyZQ3KK5BQTB7ZgrDjfx%2Fh%2FRMsIqUi8Am5Q1P9LxlcXFl2QqN9ehao7UihHGoLq%2BiMRkg9PviWKGOoaJ62Q%3D%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '7d2d84eb3b830fd8-LAX'} 
+ body=&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;Error&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;pre&gt;Bad Request&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+ 
+ </msg>
+<msg timestamp="20230606 11:20:23.046" level="INFO">C:\Python\Lib\site-packages\urllib3\connectionpool.py:1095: InsecureRequestWarning: Unverified HTTPS request is being made to host 'reqres.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg timestamp="20230606 11:20:23.046" level="FAIL">HTTPError: 400 Client Error: Bad Request for url: https://reqres.in/api/users</msg>
+<status status="FAIL" starttime="20230606 11:20:22.233" endtime="20230606 11:20:23.046"/>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<var>${string_status_code}</var>
+<arg>${response.status_code}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="NOT RUN" starttime="20230606 11:20:23.046" endtime="20230606 11:20:23.059"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${response.status_code}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230606 11:20:23.059" endtime="20230606 11:20:23.059"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${response.content}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230606 11:20:23.059" endtime="20230606 11:20:23.059"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${string_status_code}</arg>
+<arg>201</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" starttime="20230606 11:20:23.059" endtime="20230606 11:20:23.059"/>
+</kw>
+<status status="FAIL" starttime="20230606 11:20:22.233" endtime="20230606 11:20:23.059">HTTPError: 400 Client Error: Bad Request for url: https://reqres.in/api/users</status>
+</test>
+<status status="FAIL" starttime="20230606 11:20:22.131" endtime="20230606 11:20:23.059"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 3 executions.</doc>
+<status status="FAIL" starttime="20230606 11:20:20.436" endtime="20230606 11:20:23.059"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 001 GetRequest">Suites.TC 001 GetRequest</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="TC 002 GetRequest">Suites.TC 002 GetRequest</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s3" name="TC 003 PostRequest">Suites.TC 003 PostRequest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

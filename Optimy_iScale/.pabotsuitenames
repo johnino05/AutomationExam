@@ -1,0 +1,7 @@
+datasources:4020a2280a698b3b16ab31bf58ef3de6b2c3e4e7
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:dd5b18b1af0b45dcb2100c63aff629dfecdfc1d4
+--suite Suites.TC 001 GetRequest
+--suite Suites.TC 002 GetRequest
+--suite Suites.TC 003 PostRequest

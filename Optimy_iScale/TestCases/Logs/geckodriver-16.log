@@ -1,0 +1,32 @@
+1709206401754	geckodriver	INFO	Listening on 127.0.0.1:56630
+1709206404810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofileHss6m3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709206405095	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709206405155	Marionette	INFO	Listening on port 56638
+WebDriver BiDi listening on ws://127.0.0.1:56631
+Read port: 56638
+1709206405306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56631/devtools/browser/9ec163cf-05a0-410e-bd16-4e369cfe9458
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709206425498	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: FormAutofillHandler: isRecordCreatable: Country not supported: AF
+1709206436667	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709206440850	Marionette	INFO	Stopped listening on port 56638
+JavaScript warning: https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js, line 2: Script terminated by timeout at:
+S@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:1044
+updateLastSavingMessage@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/inc/common/autoSave.js?v37:482:9
+
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))

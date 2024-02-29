@@ -1,0 +1,22 @@
+1709206038438	geckodriver	INFO	Listening on 127.0.0.1:56352
+1709206041503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofilezWN1y0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709206041779	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709206041840	Marionette	INFO	Listening on port 56360
+WebDriver BiDi listening on ws://127.0.0.1:56353
+Read port: 56360
+1709206042006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56353/devtools/browser/a34d0477-7890-4d55-99ba-9db64fd959ae
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709206064813	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: FormAutofillHandler: isRecordCreatable: Country not supported: AF
+1709206071797	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709206079070	Marionette	INFO	Stopped listening on port 56360
+JavaScript warning: https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js, line 2: Script terminated by timeout at:
+S@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/assets/vendors/js/jquery-3.6.0/jquery-3.6.0.min.js:2:1044
+updateLastSavingMessage@https://qrqck8u5t9co.front.staging.optimy.net/NEW_SP/inc/common/autoSave.js?v37:482:9
+
+Dynamically enable window occlusion 1

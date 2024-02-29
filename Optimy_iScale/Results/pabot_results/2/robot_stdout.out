@@ -1,0 +1,27 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC 003 PostRequest                                                     
+==============================================================================
+TC_001_Create_User                                                      
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\GuessUser\PycharmProjects\RobotFramework\TestCases\TC_003_PostRequest.robot:13
+    T:  TC_001_Create_User    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\GuessUser\PycharmProjects\RobotFramework\TestCases\TC_003_PostRequest.robot:17
+      POST On Session    mysession    ${relativeurl_endpoint}    data=${body}    headers=${header}
+      |  ${relativeurl_endpoint} = api/users (str)
+      |  data=${body} = data={'name': 'igop job=model'} (str)
+      |  headers=${header} = headers={'Content-Type': 'application/json'} (str)
+______________________________________________________________________________
+| FAIL |
+HTTPError: 400 Client Error: Bad Request for url: https://reqres.in/api/users
+------------------------------------------------------------------------------
+Suites.TC 003 PostRequest                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\GuessUser\PycharmProjects\RobotFramework\Results\pabot_results\2\output.xml

@@ -1,0 +1,17 @@
+1709205025635	geckodriver	INFO	Listening on 127.0.0.1:55093
+1709205028687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\GUESSU~1\\AppData\\Local\\Temp\\rust_mozprofilebF1TOz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709205028973	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709205029036	Marionette	INFO	Listening on port 55102
+WebDriver BiDi listening on ws://127.0.0.1:55094
+Read port: 55102
+1709205029192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55094/devtools/browser/0eb24714-edcb-4a9a-b981-40683479cce7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://qrqck8u5t9co.front.staging.optimy.net."
+1709205048087	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1709205060634	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1709205102075	Marionette	INFO	Stopped listening on port 55102
+Dynamically enable window occlusion 1
